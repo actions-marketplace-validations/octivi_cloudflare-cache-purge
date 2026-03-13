@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-slim
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v6.0.2
 
       - name: Update year in headers
         uses: octivi/update-copyright-year@v1
